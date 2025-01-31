@@ -108,7 +108,7 @@ int main()
               pointSum++;
               
               //comparing vectors
-              if (durVectorGT(0)*10.0 < (double)(duration.count())/1000.0){
+              if ((durVectorGT(0)*10.0 < (double)(duration.count())/1000.0)&&(durVectorGT(0)>1000.0)){
                 cout<<"Running took too long! "<<endl;
                 continue;  //No points gained
               }

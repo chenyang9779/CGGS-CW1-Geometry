@@ -54,8 +54,8 @@ int main()
     polyscope::init();
     polyscope::options::warnForInvalidValues = false;
     polyscope::registerPointCloud("Original Point Cloud", pointCloud);
-    RowVector3d boundMin = pointCloud.colwise().minCoeff()- 0.2*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
-    RowVector3d boundMax = pointCloud.colwise().maxCoeff()+ 0.2*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
+    RowVector3d boundMin = pointCloud.colwise().minCoeff()- 0.0*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
+    RowVector3d boundMax = pointCloud.colwise().maxCoeff()+ 0.0*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
     
     // register the grid
     polyscope::VolumeGrid* psGrid = polyscope::registerVolumeGrid(
