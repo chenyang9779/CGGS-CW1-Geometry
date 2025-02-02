@@ -4,6 +4,7 @@
 #include <Eigen/Dense>
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 #include <random>
 
 using namespace Eigen;

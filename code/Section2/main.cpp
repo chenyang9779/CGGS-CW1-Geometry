@@ -8,6 +8,7 @@
 #include <vector>
 #include <set>
 #include <array>
+#include <chrono>
 #include <queue>
 #include "readNOFF.h"
 #include "compute_function_mls.h"
@@ -44,7 +45,7 @@ inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v
 int main()
 {
   MatrixXi stubF;
-  readNOFF(DATA_PATH "/fertility-2500.off",pointCloud, pcNormals, stubF);
+  readNOFF("/home/chenyang/repos/CGGS-CW1-Geometry/data/fertility-2500.off",pointCloud, pcNormals, stubF);
   diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
   
   polyscope::init();
