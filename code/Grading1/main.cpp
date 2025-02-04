@@ -3,10 +3,10 @@
 #include "serialization.h"
 #include <Eigen/Dense>
 #include <iostream>
-#include <filesystem>
-#include <chrono>
 #include <fstream>
 #include <random>
+#include <chrono>
+#include <filesystem>
 
 using namespace Eigen;
 using namespace std;
@@ -80,14 +80,14 @@ int main()
   for (const auto& entry : fs::directory_iterator(folderPath)) {
     if (entry.is_regular_file() && entry.path().extension() == ".off") {
       cout<<"Working on file "<<entry.path().filename()<<endl;
-      std::string dataName = entry.path();
+      std::string dataName = entry.path().string();
       dataName.erase(dataName.size() - 4, 4);
       std::ifstream ifs(dataName+"-section1.data", std::ofstream::binary);
       
       MatrixXd pointCloud, pcNormals;
       MatrixXi stubF;
       
-      readNOFF(entry.path(), pointCloud, pcNormals, stubF);
+      readNOFF(entry.path().string(), pointCloud, pcNormals, stubF);
       double diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
       RowVector3d boundMin = pointCloud.colwise().minCoeff()- 0.2*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
       RowVector3d boundMax = pointCloud.colwise().maxCoeff()+ 0.2*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());

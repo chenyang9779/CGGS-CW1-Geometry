@@ -6,9 +6,9 @@
 #include <Eigen/Sparse>
 #include <iostream>
 #include <vector>
+#include <chrono>
 #include <set>
 #include <array>
-#include <chrono>
 #include <queue>
 #include "readNOFF.h"
 #include "compute_scalar_mls.h"
@@ -49,7 +49,7 @@ inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v
 int main()
 {
     MatrixXi stubF;
-    readNOFF("/home/chenyang/repos/CGGS-CW1-Geometry/data/manhead-3000.off",pointCloud, pcNormals, stubF);
+    readNOFF(DATA_PATH "/manhead-3000.off",pointCloud, pcNormals, stubF);
     diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
     
     polyscope::init();
