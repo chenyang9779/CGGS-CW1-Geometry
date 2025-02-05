@@ -50,7 +50,12 @@ bool compare_nan_vectors(const VectorXd& vec1,
       return false;
     } else if (!isNanVec1 && !isNanVec2) {
       double difference = std::abs(vec1[i] - vec2[i]);
-      if (difference > maxDifference) {
+      
+      if (difference > maxDifference && difference > tolerance) {
+        printf("%.9f\n", vec1[i]);// << vec1[i] << endl;
+        cout << "===========" << endl;
+        printf("%.9f\n", vec2[i]);
+        cout << i << endl;
         maxDifference = difference;
         maxDifferenceIndex = i;
       }
@@ -108,7 +113,7 @@ int main()
               deserializeVector(MLSValuesGT, ifs);
               deserializeVector(durVectorGT, ifs);
               pointSum++;
-              
+              // cout << durVectorGT(0)*10.0 << endl;
               //comparing vectors
               if ((durVectorGT(0)*10.0 < (double)(duration.count())/1000.0)&&(durVectorGT(0)>1000.0)){
                 cout<<"Running took too long! "<<endl;

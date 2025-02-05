@@ -10,30 +10,49 @@ double nanValue = std::numeric_limits<double>::quiet_NaN();
 
 inline std::vector<std::array<int,3>> generateEponents(int N){
   std::vector<std::array<int, 3>> exponents;
-  for (int total = 0; total <= N; ++total) {
-    for (int i = 0; i <= total; ++i) {
-      for (int j = 0; j <= total - i; ++j) {
-        int k = total - i - j;
-        exponents.push_back({i, j, k});
+  // for (int i = 0; i <= N; i++) {
+  //   for (int j = 0; j <= N - i; j++) {
+  //     for (int k = 0; k <= N - i - j; k++) {
+  //       exponents.push_back({i, j, k});
+  //     }
+  //   }
+  // }
+  for (int i = 0; i <= N; i++) {
+    for (int j = 0; j <= N; j++) {
+      for (int k = 0; k <= N ; k++) {
+        if (i + j +k <= N) exponents.push_back({i, j, k});
       }
     }
   }
   return exponents;
 }
 inline double wendlandWeight(double r, double h) {
-  if (r >= h){
-    return 0.0;
-  }
   double s = 1.0 - r / h;
   return s*s*s*s*(4.0 * r / h + 1.0);
 }
 
-inline Eigen::VectorXd monomials3D(double x, double y, double z, const std::vector<std::array<int, 3>> &exponents){
+inline double gaussianWeight(double r, double h) {
+  return std::exp(- r * r / (h * h));
+}
+
+inline double singularEdgeWeight(double r, double epsilon) {
+  return 1.0 / (r * r + epsilon * epsilon);
+}
+
+
+
+
+inline Eigen::VectorXd monomials3D(double x, double y, double z, const std::vector<std::array<int, 3>> &exponents, double scale){
   int nTerm = exponents.size();
   Eigen::VectorXd basis(nTerm);
+  double x_scaled = x / (scale*scale);
+  double y_scaled = y / (scale*scale);
+  double z_scaled = z / (scale*scale);
 
   for (int i = 0; i < nTerm; i++){
-    basis(i) = std::pow(x, exponents[i][0]) * std::pow(y, exponents[i][1]) * std::pow(z, exponents[i][2]);
+    basis(i) = std::pow(x, exponents[i][0]) * 
+               std::pow(y, exponents[i][1]) * 
+               std::pow(z, exponents[i][2]);
   }
 
   return basis;
@@ -88,37 +107,43 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
       diff = p - gridPt;
       double dist2;
       // if (diff.cwiseAbs().maxCoeff() < h){
-        dist2 = diff.squaredNorm();
-        if (dist2 <= h*h) {
-          localPoints.push_back(p);
-          localValues.push_back(0.0);
-          double weight = wendlandWeight(std::sqrt(dist2), h);
-          localWeights.push_back(weight);
-          
-        }
+      dist2 = diff.squaredNorm();
+      if (dist2 <= h*h) {
+        localPoints.push_back(p);
+        localValues.push_back(0.0);
+        double weight = wendlandWeight(std::sqrt(dist2), h);
+        // double weight = gaussianWeight(std::sqrt(dist2), h);
+        // double weight = singularEdgeWeight(std::sqrt(dist2), 0.0);
+        localWeights.push_back(weight);
+        
+      }
       // }
 
       diff = pP - gridPt;
       // if (diff.cwiseAbs().maxCoeff() < h){
-        dist2 = diff.squaredNorm();
-        if (dist2 <= h*h) {
-          localPoints.push_back(pP);
-          localValues.push_back(+epsNormal);
-          double weight = wendlandWeight(std::sqrt(dist2), h);
-          localWeights.push_back(weight);
-          
-        }
+      dist2 = diff.squaredNorm();
+      if (dist2 <= h*h) {
+        localPoints.push_back(pP);
+        localValues.push_back(+epsNormal);
+        double weight = wendlandWeight(std::sqrt(dist2), h);
+        // double weight = gaussianWeight(std::sqrt(dist2), h);
+        // double weight = singularEdgeWeight(std::sqrt(dist2), epsNormal);
+        localWeights.push_back(weight);
+        
+      }
       // }
 
       diff = pM - gridPt;
       // if (diff.cwiseAbs().maxCoeff() < h){
-        dist2 = diff.squaredNorm();
-        if (dist2 <= h*h) {
-          localPoints.push_back(pM);
-          localValues.push_back(-epsNormal);
-          double weight = wendlandWeight(std::sqrt(dist2), h);
-          localWeights.push_back(weight);
-        }
+      dist2 = diff.squaredNorm();
+      if (dist2 <= h*h) {
+        localPoints.push_back(pM);
+        localValues.push_back(-epsNormal);
+        double weight = wendlandWeight(std::sqrt(dist2), h);
+        // double weight = gaussianWeight(std::sqrt(dist2), h);
+        // double weight = singularEdgeWeight(std::sqrt(dist2), epsNormal);
+        localWeights.push_back(weight);
+      }
       // }
     }
     int nLocal = localPoints.size();
@@ -134,7 +159,8 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
     for (int r = 0; r < nLocal; r++){
       double weight = localWeights[r];
       double sqrtWeight = std::sqrt(weight);
-      A.row(r) = monomials3D(localPoints[r].x(), localPoints[r].y(), localPoints[r].z(), exponents) * sqrtWeight;
+      RowVector3d pt_centered = localPoints[r] - gridPt;
+      A.row(r) = monomials3D(localPoints[r][0], localPoints[r][1], localPoints[r][2], exponents, h) * sqrtWeight;
       b(r) = localValues[r] * sqrtWeight;
     }
 
@@ -147,13 +173,20 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
     VectorXd alpha;
 
     // if (ldlt.info() == Eigen::Success) {
-      alpha = ldlt.solve(rhs);
+    alpha = ldlt.solve(rhs);
     // } else {
-    //     alpha = lhs.colPivHouseholderQr().solve(rhs);
+    // alpha = lhs.colPivHouseholderQr().solve(rhs);
     // }
     
-    VectorXd gridBasis = monomials3D(gridPt.x(), gridPt.y(), gridPt.z(), exponents);
-
+    VectorXd gridBasis = monomials3D(gridPt[0], gridPt[1], gridPt[2], exponents, h);
+    // if (i == 26090){
+    //   cout << A <<endl;
+    //   cout << rhs << endl;
+    //   cout << alpha << endl;
+    //   cout << gridBasis <<endl;
+    //   // printf("%.9f\n", lhs);
+    //   // printf("%.9f\n", rhs);
+    // }
     // Store the result
     MLSValues(i) = gridBasis.dot(alpha);
 
