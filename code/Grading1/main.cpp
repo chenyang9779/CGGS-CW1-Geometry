@@ -51,11 +51,7 @@ bool compare_nan_vectors(const VectorXd& vec1,
     } else if (!isNanVec1 && !isNanVec2) {
       double difference = std::abs(vec1[i] - vec2[i]);
       
-      if (difference > maxDifference && difference > tolerance) {
-        printf("%.9f\n", vec1[i]);// << vec1[i] << endl;
-        cout << "===========" << endl;
-        printf("%.9f\n", vec2[i]);
-        cout << i << endl;
+      if (difference > maxDifference) {
         maxDifference = difference;
         maxDifferenceIndex = i;
       }
