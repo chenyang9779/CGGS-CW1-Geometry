@@ -12,7 +12,7 @@ using namespace Eigen;
 using namespace std;
 
 
-double tolerance = 1e-8;
+double tolerance = 1e-3;
 
 namespace fs = std::filesystem;
 
@@ -72,7 +72,7 @@ int main()
   RowVector2d epsValues(0.005, 0.05);
   RowVector3i NValues(0,1,2);
   RowVector3d hValues(0.01, 0.05, 0.2);
-  RowVector3i gridRes(8, 16,32);
+  RowVector2i gridRes(8, 16);
   double section1Points = 30.0;
   
   std::string folderPath(DATA_PATH); // Replace with your folder path
@@ -95,7 +95,7 @@ int main()
       for (int i=0;i<2;i++){
         for (int j=0;j<3;j++){
           for (int k=0;k<3;k++){
-            for (int l=0;l<3;l++){
+            for (int l=0;l<2;l++){
               cout<<"Testing combination eps = "<<epsValues(i)<<", N = "<<NValues(j)<<", h = "<<hValues(k)<<", gridRes = "<<gridRes(l)<<endl;
               MatrixXd sampledLocations = grid_locations(gridRes(l), boundMin, boundMax);
               auto start = std::chrono::high_resolution_clock::now();

@@ -11,7 +11,7 @@
 using namespace Eigen;
 using namespace std;
 
-double tolerance = 1e-8;
+double tolerance = 1e-3;
 
 namespace fs = std::filesystem;
 

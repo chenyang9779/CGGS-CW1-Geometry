@@ -5,6 +5,7 @@
 #include <Eigen/Core>
 #include <Eigen/Cholesky>
 #include <Eigen/QR> 
+#include <Eigen/SVD>
 
 double nanValue = std::numeric_limits<double>::quiet_NaN();
 
@@ -168,15 +169,14 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
     MatrixXd lhs = A.transpose() * A;
     VectorXd rhs = A.transpose() * b;
     
-    Eigen::LDLT<MatrixXd> ldlt(lhs);
-    
     VectorXd alpha;
 
-    // if (ldlt.info() == Eigen::Success) {
-    alpha = ldlt.solve(rhs);
-    // } else {
-    // alpha = lhs.colPivHouseholderQr().solve(rhs);
-    // }
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(lhs, Eigen::ComputeThinU | Eigen::ComputeThinV);
+    alpha = svd.solve(rhs);
+
+    // Eigen::LDLT<MatrixXd> ldlt(lhs);
+    // alpha = ldlt.solve(rhs);
+
     
     VectorXd gridBasis = monomials3D(gridPt[0], gridPt[1], gridPt[2], exponents, h);
     // if (i == 26090){
