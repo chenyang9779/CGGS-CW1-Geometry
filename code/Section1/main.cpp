@@ -49,7 +49,7 @@ inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v
 int main()
 {
     MatrixXi stubF;
-    readNOFF(DATA_PATH "manhead-3000.off",pointCloud, pcNormals, stubF);
+    readNOFF(DATA_PATH "/manhead-3000.off",pointCloud, pcNormals, stubF);
     diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
     
     polyscope::init();
