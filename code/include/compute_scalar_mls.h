@@ -11,13 +11,6 @@ double nanValue = std::numeric_limits<double>::quiet_NaN();
 
 inline std::vector<std::array<int,3>> generateEponents(int N){
   std::vector<std::array<int, 3>> exponents;
-  // for (int i = 0; i <= N; i++) {
-  //   for (int j = 0; j <= N - i; j++) {
-  //     for (int k = 0; k <= N - i - j; k++) {
-  //       exponents.push_back({i, j, k});
-  //     }
-  //   }
-  // }
   for (int i = 0; i <= N; i++) {
     for (int j = 0; j <= N; j++) {
       for (int k = 0; k <= N ; k++) {
@@ -83,12 +76,6 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
   vector<std::array<int, 3>> exponents = generateEponents(N);
   int nBasis = exponents.size();
 
-  // std::vector<Eigen::VectorXd> precomputedMonomials(pointCloud.rows());
-
-  // for (int j = 0; j < pointCloud.rows(); j++) {
-  //   precomputedMonomials[j] = monomials3D(pointCloud(j, 0), pointCloud(j, 1), pointCloud(j, 2), exponents);
-  // }
-
   for (int i = 0; i < nGrid; i++){
     RowVector3d gridPt = gridLocations.row(i);
 
@@ -102,12 +89,9 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
       RowVector3d pP = p + n * epsNormal;
       RowVector3d pM = p - n * epsNormal;
 
-
-      // if (diff.cwiseAbs().maxCoeff() > h) continue;
       RowVector3d diff;
       diff = p - gridPt;
       double dist2;
-      // if (diff.cwiseAbs().maxCoeff() < h){
       dist2 = diff.squaredNorm();
       if (dist2 <= h*h) {
         localPoints.push_back(p);
@@ -118,10 +102,8 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
         localWeights.push_back(weight);
         
       }
-      // }
 
       diff = pP - gridPt;
-      // if (diff.cwiseAbs().maxCoeff() < h){
       dist2 = diff.squaredNorm();
       if (dist2 <= h*h) {
         localPoints.push_back(pP);
@@ -132,10 +114,8 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
         localWeights.push_back(weight);
         
       }
-      // }
 
       diff = pM - gridPt;
-      // if (diff.cwiseAbs().maxCoeff() < h){
       dist2 = diff.squaredNorm();
       if (dist2 <= h*h) {
         localPoints.push_back(pM);
@@ -145,7 +125,6 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
         // double weight = singularEdgeWeight(std::sqrt(dist2), epsNormal);
         localWeights.push_back(weight);
       }
-      // }
     }
     int nLocal = localPoints.size();
     if (nLocal < nBasis){
@@ -179,14 +158,7 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd& gridLocations,
 
     
     VectorXd gridBasis = monomials3D(gridPt[0], gridPt[1], gridPt[2], exponents, h);
-    // if (i == 26090){
-    //   cout << A <<endl;
-    //   cout << rhs << endl;
-    //   cout << alpha << endl;
-    //   cout << gridBasis <<endl;
-    //   // printf("%.9f\n", lhs);
-    //   // printf("%.9f\n", rhs);
-    // }
+    
     // Store the result
     MLSValues(i) = gridBasis.dot(alpha);
 
