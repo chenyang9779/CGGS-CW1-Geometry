@@ -12,6 +12,7 @@
 #include <queue>
 #include "readNOFF.h"
 #include "compute_scalar_mls.h"
+#include <cstdlib>  // For std::stod and std::stoi
 
 
 using namespace Eigen;
@@ -21,10 +22,10 @@ using namespace std;
 MatrixXd pointCloud, pcNormals;
 VectorXd MLSValues;
 
-int gridRes = 32;
-double epsNormal = 0.005;
-int N = 1;
-double h = 0.05;
+// int gridRes = 32;
+// double epsNormal = 0.01;
+// int N = 2;
+// double h = 0.1;
 double diagLength;
 
 MatrixXd grid_locations(const int gridRes,
@@ -46,10 +47,21 @@ MatrixXd grid_locations(const int gridRes,
 inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v(2)};}
 
 
-int main()
-{
+int main(int argc, char* argv[])
+{   
+    if (argc < 5) {
+        cerr << "Usage: " << argv[0] << " <gridRes> <epsNormal> <N> <h>\n";
+        return 1;  // Exit with an error code
+    }
+
+    // Convert command-line arguments to proper data types
+    int gridRes = stoi(argv[1]);
+    double epsNormal = stod(argv[2]);
+    int N = stoi(argv[3]);
+    double h = stod(argv[4]);
+
     MatrixXi stubF;
-    readNOFF(DATA_PATH "/manhead-3000.off",pointCloud, pcNormals, stubF);
+    readNOFF(DATA_PATH "/dragon-25000.off",pointCloud, pcNormals, stubF);
     diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
     
     polyscope::init();
@@ -70,16 +82,15 @@ int main()
     auto end = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
     std::cout << "Function took " << (double)(duration.count())/1000.0 << " seconds to execute." << std::endl;
-   
+    cout << gridRes << "_" << epsNormal << "_" << N << "_" << h << "_" << (int)(duration.count())/1000.0 << endl;
     cout<<"done! "<<endl;
 
     std::vector<float> MLSValuesArray(MLSValues.size());
     for (int i=0;i<MLSValues.size();i++) MLSValuesArray[i] = MLSValues(i);
     
-    polyscope::VolumeGridNodeScalarQuantity* psScalarValues =
-    psGrid->addNodeScalarQuantity("MLS Values",MLSValuesArray);
+    polyscope::VolumeGridNodeScalarQuantity* psScalarValues = psGrid->addNodeScalarQuantity("MLS Values",MLSValuesArray);
     psScalarValues->setEnabled(true);
-    
+    // polyscope::registerSurfaceMesh();
     polyscope::show();
     
 }
