@@ -49,8 +49,8 @@ inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v
 
 int main(int argc, char* argv[])
 {   
-    if (argc < 5) {
-        cerr << "Usage: " << argv[0] << " <gridRes> <epsNormal> <N> <h>\n";
+    if (argc != 6) {
+        cerr << "Usage: " << argv[0] << " <gridRes> <epsNormal> <N> <h> <fileName>\n";
         return 1;  // Exit with an error code
     }
 
@@ -59,9 +59,10 @@ int main(int argc, char* argv[])
     double epsNormal = stod(argv[2]);
     int N = stoi(argv[3]);
     double h = stod(argv[4]);
+    string file = argv[5];
 
     MatrixXi stubF;
-    readNOFF(DATA_PATH "/dragon-25000.off",pointCloud, pcNormals, stubF);
+    readNOFF(DATA_PATH "/" + file + ".off",pointCloud, pcNormals, stubF);
     diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
     
     polyscope::init();

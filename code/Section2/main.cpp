@@ -20,8 +20,8 @@ using namespace std;
 MatrixXd pointCloud, pcNormals;
 VectorXd MLSValues;
 
-int gridRes = 32;
-double h = 0.05;
+// int gridRes = 32;
+// double h = 0.05;
 double diagLength;
 
 MatrixXd grid_locations(const int gridRes,
@@ -42,10 +42,19 @@ MatrixXd grid_locations(const int gridRes,
 inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v(2)};}
 
 
-int main()
-{
+int main(int argc, char* argv[])
+{ 
+  if (argc != 4) {
+    cerr << "Usage: " << argv[0] << " <gridRes> <h> <fileName>\n";
+    return 1;  // Exit with an error code
+  }
+
+  int gridRes = stoi(argv[1]);
+  double h = stod(argv[2]);
+  string file = argv[3];
+
   MatrixXi stubF;
-  readNOFF(DATA_PATH "/fertility-2500.off",pointCloud, pcNormals, stubF);
+  readNOFF(DATA_PATH "/" + file + ".off",pointCloud, pcNormals, stubF);
   diagLength = (pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff()).norm();
   
   polyscope::init();
