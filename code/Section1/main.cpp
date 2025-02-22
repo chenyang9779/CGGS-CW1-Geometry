@@ -67,7 +67,8 @@ int main(int argc, char* argv[])
     
     polyscope::init();
     polyscope::options::warnForInvalidValues = false;
-    polyscope::registerPointCloud("Original Point Cloud", pointCloud);
+    auto* psCloud = polyscope::registerPointCloud("Original Point Cloud", pointCloud);
+    psCloud->setPointRenderMode(polyscope::PointRenderMode::Quad);
     RowVector3d boundMin = pointCloud.colwise().minCoeff()- 0.0*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
     RowVector3d boundMax = pointCloud.colwise().maxCoeff()+ 0.0*(pointCloud.colwise().maxCoeff() - pointCloud.colwise().minCoeff());
     

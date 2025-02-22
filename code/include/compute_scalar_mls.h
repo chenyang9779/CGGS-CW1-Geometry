@@ -147,9 +147,7 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd &gridLocations,
 
     for (int r = 0; r < nLocal; r++)
     {
-      double weight = localWeights[r];
-      double sqrtWeight = std::sqrt(weight);
-      RowVector3d pt_centered = localPoints[r] - gridPt;
+      double sqrtWeight = std::sqrt(localWeights[r]);
       A.row(r) = monomials3D(localPoints[r][0], localPoints[r][1], localPoints[r][2], exponents) * sqrtWeight;
       b(r) = localValues[r] * sqrtWeight;
     }
@@ -158,7 +156,6 @@ Eigen::VectorXd compute_scalar_mls(const Eigen::MatrixXd &gridLocations,
     VectorXd rhs = A.transpose() * b;
 
     VectorXd alpha;
-
     Eigen::JacobiSVD<Eigen::MatrixXd> svd(lhs, Eigen::ComputeThinU | Eigen::ComputeThinV);
     alpha = svd.solve(rhs);
 

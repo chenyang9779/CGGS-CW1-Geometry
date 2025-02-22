@@ -49,8 +49,8 @@ inline glm::vec3 eigen2glm(const RowVector3d& v){ return glm::vec3{v(0), v(1), v
 
 int main(int argc, char* argv[])
 {   
-    if (argc != 5) {
-        cerr << "Usage: " << argv[0] << " <gridRes> <epsNormal> <N> <h>\n";
+    if (argc != 6) {
+        cerr << "Usage: " << argv[0] << " <gridRes> <epsNormal> <N> <h> <fileName>\n";
         return 1;  // Exit with an error code
     }
 

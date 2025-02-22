@@ -75,7 +75,8 @@ int main(int argc, char* argv[])
   auto end = std::chrono::high_resolution_clock::now();
   auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
   std::cout << "Function took " << (double)(duration.count())/1000.0 << " seconds to execute." << std::endl;
- 
+  
+  cout << gridRes << "_" << h << "_" << (int)(duration.count())/1000.0 << endl;
   cout<<"done! "<<endl;
 
   std::vector<float> MLSValuesArray(MLSValues.size());
