@@ -4,6 +4,7 @@ code/build
 .idea
 # Prerequisites
 *.d
+*.zip
 
 # Compiled Object files
 *.slo
