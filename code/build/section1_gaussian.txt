@@ -1,0 +1,1964 @@
+Working on file "manhead-2000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.064 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 365: GT is -0.0279822, your result is -0.00821992
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 2420: GT is 0.0209597, your result is 0.00222989
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Location 345: GT is 0.119643, your result is -0.0969158
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.073 seconds to execute.
+Location 553: GT is 0.203607, your result is 0.0416558
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.059 seconds to execute.
+Location 2980: GT is -0.0206649, your result is -0.0455101
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.012 seconds to execute.
+Location 267: GT is 0.335441, your result is 1.91524
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.107 seconds to execute.
+Location 2233: GT is 6.61369, your result is 2.56409
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.055 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 138: GT is 0.0499701, your result is 0.0222184
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 1987: GT is 0.0476413, your result is 0.0203772
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 97: GT is 0.0400651, your result is 0.00324742
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.063 seconds to execute.
+Location 659: GT is 0.0348453, your result is 0.000716288
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.056 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 1845: GT is 0.00799367, your result is -0.0287237
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Location 286: GT is 0.0515179, your result is 0.205437
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.073 seconds to execute.
+Location 1044: GT is 0.0522606, your result is 0.2194
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.055 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 1081: GT is -0.163984, your result is -0.0407838
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.012 seconds to execute.
+Location 345: GT is -1.73144, your result is -0.958389
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.111 seconds to execute.
+Location 1046: GT is 0.347635, your result is 3.07948
+Working on file "hyperbolic_paraboloid.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Location 2440: GT is 0.000159436, your result is 0.0243965
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Working on file "manhead-3000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.011 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.094 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 282: GT is -0.0253218, your result is -0.0150049
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.085 seconds to execute.
+Location 2676: GT is -0.033202, your result is -0.00245179
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.012 seconds to execute.
+Location 266: GT is 0.293162, your result is 0.16324
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.107 seconds to execute.
+Location 1300: GT is 0.20148, your result is 0.0295658
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 282: GT is -0.0256508, your result is -0.00975066
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.088 seconds to execute.
+Location 1061: GT is 0.148014, your result is 0.0502948
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.017 seconds to execute.
+Location 222: GT is -0.626622, your result is 0.454467
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.153 seconds to execute.
+Location 2728: GT is 6.7776, your result is -0.17707
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 294: GT is 0.0463591, your result is 0.0235615
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.085 seconds to execute.
+Location 1317: GT is 0.04623, your result is 0.0189894
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.011 seconds to execute.
+Location 97: GT is 0.0404756, your result is 0.0057643
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.095 seconds to execute.
+Location 659: GT is 0.0351703, your result is 0.00156741
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 365: GT is -0.0293903, your result is -0.0225482
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.085 seconds to execute.
+Location 2676: GT is -0.0509011, your result is -0.036161
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.013 seconds to execute.
+Location 373: GT is 0.0510118, your result is 0.21085
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.109 seconds to execute.
+Location 790: GT is 0.0500706, your result is 0.237476
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.011 seconds to execute.
+Location 282: GT is -0.0345234, your result is -0.0458685
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.086 seconds to execute.
+Location 1081: GT is -0.0188002, your result is 0.686811
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.018 seconds to execute.
+Location 266: GT is 2.0531, your result is 1.33181
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.158 seconds to execute.
+Location 1044: GT is 0.19372, your result is -6.3277
+Working on file "sphere.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.013 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 210: GT is -0.125096, your result is -0.0571077
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.014 seconds to execute.
+Location 1130: GT is -0.14701, your result is -0.0878415
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.002 seconds to execute.
+Location 222: GT is 0.0430999, your result is 0.316858
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.024 seconds to execute.
+Location 890: GT is -0.0326846, your result is 0.157352
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 338: GT is 0.0499835, your result is 0.0317298
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Location 2628: GT is 0.05, your result is 0.0296994
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 157: GT is -0.0450762, your result is -0.0181578
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.013 seconds to execute.
+Location 3142: GT is 0.0392169, your result is 0.010777
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 210: GT is -0.123822, your result is -0.113841
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.015 seconds to execute.
+Location 2954: GT is -0.185684, your result is -0.165003
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.012 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.002 seconds to execute.
+Location 243: GT is 0.601545, your result is 0.212666
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.024 seconds to execute.
+Location 1751: GT is 0.518532, your result is 0.245251
+Working on file "hound.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.245 seconds to execute.
+Location 2491: GT is -0.00432329, your result is 0.0013323
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.031 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.254 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.076 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.679 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.241 seconds to execute.
+Location 1160: GT is 0.00891968, your result is -0.00742058
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.032 seconds to execute.
+Location 155: GT is 0.0212436, your result is 0.0488385
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.263 seconds to execute.
+Location 3450: GT is 0.00501443, your result is 0.0522982
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.145 seconds to execute.
+Location 152: GT is 0.0066273, your result is 0.163664
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 1.327 seconds to execute.
+Location 1340: GT is 0.00918558, your result is 0.180878
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.248 seconds to execute.
+Location 2491: GT is -0.021987, your result is -0.0149746
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.037 seconds to execute.
+Location 155: GT is 0.0500121, your result is -0.49857
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.304 seconds to execute.
+Location 3156: GT is 0.0315632, your result is -1.06393
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.314 seconds to execute.
+Location 152: GT is -3.25905, your result is -7.07392
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 2.928 seconds to execute.
+Location 3489: GT is -11.4355, your result is 2.9437
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Location 237: GT is -0.0363517, your result is -0.00264491
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.244 seconds to execute.
+Location 563: GT is 0.0279229, your result is -0.0195953
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.031 seconds to execute.
+Location 401: GT is 0.0485351, your result is 0.0144672
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.255 seconds to execute.
+Location 601: GT is 0.0484392, your result is 0.00380058
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.077 seconds to execute.
+Location 2: GT is 0.0432525, your result is 0.00361975
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.692 seconds to execute.
+Location 3611: GT is 0.0420002, your result is 0.00282353
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Location 302: GT is 0.00639586, your result is 0.0467492
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.246 seconds to execute.
+Location 3635: GT is 0.050047, your result is 1.08833
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.033 seconds to execute.
+Location 246: GT is 0.0592145, your result is 0.0994898
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.268 seconds to execute.
+Location 714: GT is 0.485638, your result is 0.612018
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.143 seconds to execute.
+Location 344: GT is 0.0638234, your result is 0.361785
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 1.319 seconds to execute.
+Location 232: GT is 0.10682, your result is 1.14037
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.03 seconds to execute.
+Location 302: GT is 0.0480327, your result is 0.0757719
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.245 seconds to execute.
+Location 1962: GT is -0.125977, your result is 2.78774
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.037 seconds to execute.
+Location 201: GT is -0.0484098, your result is 0.0635855
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.312 seconds to execute.
+Location 714: GT is -3.56947, your result is -0.315632
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.313 seconds to execute.
+Location 495: GT is -3.32406, your result is 2.17398
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 2.923 seconds to execute.
+Location 488: GT is -14.2902, your result is 3.3976
+Working on file "plane.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.004 seconds to execute.
+Result is good!
+Working on file "cat.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.007 seconds to execute.
+Result is good!
+Working on file "spot-2000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.056 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.056 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.063 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 211: GT is -0.0244361, your result is -0.00521224
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 1417: GT is -0.0357919, your result is -0.0246286
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Location 396: GT is 0.171103, your result is 0.0508285
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.071 seconds to execute.
+Location 1112: GT is 0.00567795, your result is 0.209671
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.058 seconds to execute.
+Location 1862: GT is -0.0230691, your result is -0.0732143
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.012 seconds to execute.
+Location 219: GT is 0.548184, your result is -0.244384
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.105 seconds to execute.
+Location 1431: GT is -0.0251402, your result is 1.61244
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 205: GT is 0.000509279, your result is 0.0192935
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.057 seconds to execute.
+Location 1944: GT is 0.00840059, your result is 0.0303469
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 169: GT is 0.0298238, your result is 0.0035311
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.063 seconds to execute.
+Location 1220: GT is 0.0380449, your result is 0.00139926
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.058 seconds to execute.
+Location 1482: GT is 0.0173948, your result is 0.0394804
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Location 334: GT is 0.0583331, your result is 0.211767
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.072 seconds to execute.
+Location 1510: GT is 0.0503505, your result is 0.258782
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.057 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.007 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.058 seconds to execute.
+Location 1459: GT is -0.0290672, your result is -0.0409891
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.012 seconds to execute.
+Location 396: GT is -0.324946, your result is 0.223824
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.107 seconds to execute.
+Location 2838: GT is 0.174803, your result is -21.0074
+Working on file "horse.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.119 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.94 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.119 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.956 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.29 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 2.616 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.116 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.934 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.122 seconds to execute.
+Location 373: GT is 0.00563584, your result is 0.0461382
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.996 seconds to execute.
+Location 1461: GT is 0.00604212, your result is 0.051982
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.52 seconds to execute.
+Location 50: GT is 0.0280049, your result is 0.175128
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 4.854 seconds to execute.
+Location 3142: GT is 0.00675977, your result is 0.181997
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.116 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.934 seconds to execute.
+Location 3245: GT is 0.00574071, your result is -0.00218144
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.131 seconds to execute.
+Location 92: GT is -0.235944, your result is -0.0137079
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 1.092 seconds to execute.
+Location 373: GT is -0.0347651, your result is -0.49007
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 1.051 seconds to execute.
+Location 484: GT is -6.80028, your result is -0.608492
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 9.862 seconds to execute.
+Location 3691: GT is 0.00320172, your result is -6.74696
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.116 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.935 seconds to execute.
+Location 2235: GT is -0.0481226, your result is -0.0366486
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.12 seconds to execute.
+Location 269: GT is 0.0400721, your result is -0.00148127
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.968 seconds to execute.
+Location 553: GT is 0.0429041, your result is -0.00554569
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.281 seconds to execute.
+Location 389: GT is 0.0488472, your result is 0.000826136
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 2.51 seconds to execute.
+Location 3076: GT is 0.0475644, your result is -0.00240018
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.117 seconds to execute.
+Location 154: GT is -0.0499897, your result is 0.00980849
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.933 seconds to execute.
+Location 2507: GT is 0.000677212, your result is 0.108623
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.124 seconds to execute.
+Location 268: GT is 0.0501672, your result is 0.101697
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 1.009 seconds to execute.
+Location 2634: GT is 0.054157, your result is 0.124151
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.5 seconds to execute.
+Location 400: GT is 0.0508738, your result is 0.502062
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 4.644 seconds to execute.
+Location 3890: GT is 0.081824, your result is 0.531577
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.116 seconds to execute.
+Location 140: GT is -0.0185605, your result is 0.024695
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.938 seconds to execute.
+Location 2507: GT is 0.0373502, your result is 0.116007
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.135 seconds to execute.
+Location 246: GT is 0.164373, your result is 0.0426042
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 1.112 seconds to execute.
+Location 1741: GT is 0.0415314, your result is -0.640495
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 1.058 seconds to execute.
+Location 400: GT is -0.112706, your result is -4.55948
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 10.015 seconds to execute.
+Location 3392: GT is 0.0451879, your result is -4.31714
+Working on file "fertility-2500.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.071 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.072 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.072 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.008 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.07 seconds to execute.
+Result is good!
+Working on file "lion-20000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.073 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.57 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.559 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.557 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.556 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.557 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.556 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.557 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.56 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.558 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.564 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.07 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.56 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.069 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.56 seconds to execute.
+Result is good!
+Working on file "bunny-500.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Location 1940: GT is 0.00451461, your result is -0.000718597
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.002 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.025 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.026 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.215 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Location 1829: GT is 0.00483683, your result is -0.00639409
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.005 seconds to execute.
+Location 20: GT is 0.00503701, your result is 0.0474949
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.047 seconds to execute.
+Location 704: GT is 0.00530744, your result is 0.0603837
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.066 seconds to execute.
+Location 511: GT is 0.0178491, your result is 0.00580883
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.54 seconds to execute.
+Location 4095: GT is 0.0178491, your result is 0.00580883
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Location 1990: GT is -0.0024638, your result is 0.120305
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.013 seconds to execute.
+Location 20: GT is 0.0201342, your result is -0.710241
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.124 seconds to execute.
+Location 2777: GT is -3.51059, your result is -0.252521
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.169 seconds to execute.
+Location 511: GT is 0.171908, your result is 0.0474375
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 1.383 seconds to execute.
+Location 4095: GT is 0.171908, your result is 0.0474375
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 332: GT is -0.0396227, your result is -0.0132725
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Location 689: GT is -0.0389153, your result is 0.00674921
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Location 121: GT is 0.0488908, your result is 0.0140057
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.027 seconds to execute.
+Location 1014: GT is 0.0471151, your result is 0.00617797
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.027 seconds to execute.
+Location 511: GT is 0.0336086, your result is -0.00477136
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.225 seconds to execute.
+Location 4095: GT is 0.0336086, your result is -0.00477136
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Location 353: GT is -0.25095, your result is -0.030666
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Location 2933: GT is -0.160407, your result is -0.0422024
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.005 seconds to execute.
+Location 444: GT is 0.0504113, your result is 0.161039
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Location 3576: GT is 0.0500397, your result is 0.214187
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.066 seconds to execute.
+Location 493: GT is 0.0704459, your result is 0.0225313
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.538 seconds to execute.
+Location 320: GT is 0.0921282, your result is 0.0436085
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.001 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.014 seconds to execute.
+Location 121: GT is -0.253515, your result is 0.202996
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.135 seconds to execute.
+Location 2796: GT is 0.050726, your result is 4.90242
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.167 seconds to execute.
+Location 0: GT is 0.100068, your result is 0.208077
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 1.369 seconds to execute.
+Location 0: GT is 0.100068, your result is 0.208077
+Working on file "dragon-3000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.079 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.077 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.009 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.078 seconds to execute.
+Result is good!
+Working on file "dragon-25000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.681 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.685 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.688 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.086 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.693 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.087 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.698 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.087 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.697 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.69 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.086 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.687 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.086 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.684 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.681 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.685 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.086 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.683 seconds to execute.
+Location 2407: GT is -0.0456712, your result is -0.0276303
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.683 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.687 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.687 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.683 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.084 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.684 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.085 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.681 seconds to execute.
+Result is good!
+Working on file "luigi.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.006 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.049 seconds to execute.
+Result is good!
+Working on file "lion-3000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.082 seconds to execute.
+Location 1132: GT is -0.0489544, your result is -0.0288282
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.082 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.01 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.081 seconds to execute.
+Result is good!
+Working on file "bunny-1000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.02 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.005 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.048 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.051 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.425 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.021 seconds to execute.
+Location 2872: GT is -0.00920307, your result is -0.0019727
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 176: GT is 0.00555132, your result is 0.057019
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.088 seconds to execute.
+Location 2011: GT is 0.00650385, your result is 0.0724737
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.13 seconds to execute.
+Location 511: GT is 0.0177309, your result is 0.00575059
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 1.069 seconds to execute.
+Location 4095: GT is 0.0177309, your result is 0.00575059
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Location 170: GT is 0.0146676, your result is -0.00457456
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.024 seconds to execute.
+Location 2694: GT is -0.0113521, your result is -0.0251611
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.022 seconds to execute.
+Location 168: GT is -1.06799, your result is 0.218386
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.211 seconds to execute.
+Location 193: GT is 0.0124983, your result is -4.82358
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.33 seconds to execute.
+Location 511: GT is 0.164645, your result is 0.0478742
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 2.724 seconds to execute.
+Location 4095: GT is 0.164645, your result is 0.0478742
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Location 97: GT is 0.0495396, your result is 0.00186001
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.021 seconds to execute.
+Location 2775: GT is 0.0490166, your result is -0.00259348
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.005 seconds to execute.
+Location 188: GT is 0.0456993, your result is 0.00833403
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.052 seconds to execute.
+Location 742: GT is 0.0426162, your result is 0.0022459
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.054 seconds to execute.
+Location 511: GT is 0.0344637, your result is -0.00427863
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.451 seconds to execute.
+Location 4095: GT is 0.0344637, your result is -0.00427863
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Location 235: GT is -0.079756, your result is -0.0199122
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.021 seconds to execute.
+Location 2198: GT is -2.76896, your result is 0.0413374
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.01 seconds to execute.
+Location 444: GT is 0.0551514, your result is 0.185746
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.091 seconds to execute.
+Location 3576: GT is 0.0581758, your result is 0.216364
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.13 seconds to execute.
+Location 493: GT is 0.0714694, your result is 0.022189
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 1.07 seconds to execute.
+Location 4026: GT is 0.0690533, your result is 0.0199565
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.002 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.021 seconds to execute.
+Location 2693: GT is -0.579043, your result is -1.27686
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.024 seconds to execute.
+Location 32: GT is -0.496617, your result is 0.278104
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.219 seconds to execute.
+Location 2811: GT is 1.36735, your result is -0.734682
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.325 seconds to execute.
+Location 503: GT is 0.0873058, your result is 0.19024
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 2.661 seconds to execute.
+Location 4063: GT is 0.0861815, your result is 0.190474
+Working on file "manhead-1000.off"
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.01, gridRes = 16
+Function took 0.027 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 0, h = 0.2, gridRes = 16
+Function took 0.032 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.01, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Location 365: GT is -0.0335241, your result is -0.0267664
+Testing combination eps = 0.005, N = 1, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Location 900: GT is -0.0324131, your result is -0.0265667
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 8
+Function took 0.004 seconds to execute.
+Location 281: GT is 0.163674, your result is 0.00802423
+Testing combination eps = 0.005, N = 1, h = 0.2, gridRes = 16
+Function took 0.037 seconds to execute.
+Location 1596: GT is 0.532722, your result is 0.00454689
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.01, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 75: GT is 1.31946, your result is 0.454347
+Testing combination eps = 0.005, N = 2, h = 0.2, gridRes = 16
+Function took 0.062 seconds to execute.
+Location 1946: GT is 1.13749, your result is -0.33243
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.01, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Location 210: GT is 0.0499981, your result is 0.0297423
+Testing combination eps = 0.05, N = 0, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Location 1317: GT is 0.040307, your result is 0.0138478
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 8
+Function took 0.003 seconds to execute.
+Location 97: GT is 0.0373473, your result is 0.0051539
+Testing combination eps = 0.05, N = 0, h = 0.2, gridRes = 16
+Function took 0.032 seconds to execute.
+Location 821: GT is 0.0406263, your result is 0.00577653
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.01, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 1, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Location 1081: GT is -0.0264855, your result is -0.0401983
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 8
+Function took 0.004 seconds to execute.
+Location 373: GT is 0.0501463, your result is 0.199684
+Testing combination eps = 0.05, N = 1, h = 0.2, gridRes = 16
+Function took 0.037 seconds to execute.
+Location 1219: GT is 0.0500374, your result is 0.216427
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.01, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 8
+Function took 0.003 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.05, gridRes = 16
+Function took 0.028 seconds to execute.
+Result is good!
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 8
+Function took 0.007 seconds to execute.
+Location 267: GT is -1.02837, your result is -0.503285
+Testing combination eps = 0.05, N = 2, h = 0.2, gridRes = 16
+Function took 0.064 seconds to execute.
+Location 2387: GT is -5.48764, your result is -0.591958
+Total point gained: 454/648
+Grade for Section 1: 21

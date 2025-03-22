@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Section3.dir/main.cpp.o -o Section3  ../polyscope/src/libpolyscope.a ../polyscope/deps/imgui/libimgui.a ../polyscope/deps/glm/glm/libglm.a ../polyscope/deps/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so ../polyscope/deps/glad/src/libglad.a ../polyscope/deps/stb/libstb.a 

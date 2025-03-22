@@ -3,6 +3,8 @@ code/build
 .vscode
 .idea
 
+*section3/external
+
 *xyzrgb*
 # Prerequisites
 *.d
